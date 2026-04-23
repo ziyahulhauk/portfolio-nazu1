@@ -1,0 +1,164 @@
+.skills {
+  padding: 80px 0;
+  background: #000;
+  color: white;
+  text-align: center;
+}
+
+/* TITLE */
+.skills-title {
+  font-size: 42px;
+}
+
+.skills-title span {
+  color: orange;
+  text-shadow: 0 0 20px orange;
+}
+
+.skills-desc {
+  max-width: 600px;
+  margin: 15px auto 50px;
+  color: #aaa;
+}
+
+.skills-desc span {
+  color: orange;
+}
+
+/* GRID */
+.skills-grid {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+/* CARD */
+.skill-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.4s;
+}
+
+.skill-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px orange;
+}
+
+/* HEADER */
+.skill-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  color: orange;
+  font-size: 22px;
+}
+
+.skill-header h3 {
+  flex: 1;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.percent {
+  color: orange;
+}
+
+/* BAR */
+.progress-bar {
+  height: 8px;
+  background: #222;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, orange, red);
+  border-radius: 20px;
+}
+
+/* SOFT SKILLS */
+.sub-title {
+  margin-top: 50px;
+  color: orange;
+}
+
+.soft-skills {
+  margin-top: 20px;
+}
+
+.soft-skills span {
+  display: inline-block;
+  margin: 8px;
+  padding: 8px 14px;
+  border: 1px solid orange;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.soft-skills span:hover {
+  background: orange;
+  color: black;
+}
+
+/* CERTIFICATIONS */
+.cert-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cert-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  transition: 0.4s;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 0 30px orange;
+}
+
+.cert-icon {
+  font-size: 30px;
+  color: orange;
+  margin-bottom: 10px;
+}
+
+.cert-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 12px;
+  border: 1px solid orange;
+  color: orange;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+.cert-btn:hover {
+  background: orange;
+  color: black;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .cert-card{
+    width: 80%;
+  }
+}
+p{
+  color: #aaa;
+}

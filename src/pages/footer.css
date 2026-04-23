@@ -1,0 +1,78 @@
+.footer {
+  background: #000;
+  color: white;
+  padding: 70px 20px 30px;
+  text-align: center;
+  border-top: 2px solid orange;
+}
+
+.footer-title {
+  font-size: 32px;
+  color: orange;
+  margin-bottom: 40px;
+  text-shadow: 0 0 20px orange;
+}
+
+/* GRID */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* CARD */
+.footer-card {
+  background: #111;
+  padding: 18px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid rgba(255,165,0,0.2);
+  transition: 0.3s ease;
+}
+
+/* ICON */
+.footer-card svg {
+  font-size: 26px;
+  color: orange;
+  margin-bottom: 8px;
+  transition: 0.3s;
+}
+
+/* TEXT */
+.footer-card span {
+  display: block;
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* HOVER */
+.footer-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px orange;
+  border-color: orange;
+}
+
+.footer-card:hover svg {
+  transform: scale(1.3);
+  color: white;
+}
+
+/* COLORS ON HOVER */
+.github:hover { background: #333; }
+.linkedin:hover { background: #0a66c2; }
+.whatsapp:hover { background: #25D366; }
+.mail:hover { background: #c71610; }
+.call:hover { background: #ff9800; }
+.twitter:hover { background: #1DA1F2; }
+.netlify:hover { background: #00C7B7; }
+
+/* FOOTER BOTTOM */
+.footer-bottom {
+  margin-top: 40px;
+  color: #aaa;
+  font-size: 13px;
+  cursor: pointer;
+}

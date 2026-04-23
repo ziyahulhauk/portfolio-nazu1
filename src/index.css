@@ -1,0 +1,45 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.theme-toggle-btn {
+  font-size: 20px;
+  padding: 8px 12px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Light mode */
+body.light {
+  background-color: #ffffff;
+  color: #111;
+}
+
+/* Dark mode */
+body.dark {
+  background-color: #111;
+  color: #ffffff;
+}
+body.dark {
+  background-color: #111;
+  color: white;
+}
+
+body.light {
+  background-color: #fff;
+  color: black;
+}
