@@ -146,6 +146,9 @@
     .about-socials{
     justify-content: center;
   }
+  .about-title{
+    font-size: 50px;
+  }
 }
 .about-text span {
   color: orange;
@@ -158,10 +161,6 @@
   color: #fff;
   text-shadow: 0 0 20px orange, 0 0 40px red;
 }
-
-
-
-
 
 .about-text span {
   position: relative;
